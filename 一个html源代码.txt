@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>统一建模语言测试</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>统一建模语言测试</h1>
+        <table border="0" width="800" border="1">
+            <tr>
+              <td align="left">考试科目：</td>
+              <td>统一建模语言</td>
+              <td align="left">时间：</td>
+              <td>100分钟</td>
+              <td align="left">得分：</td>
+              <td>100</td>
+            </tr>
+            <tr>
+                <td align="left">班级：</td>
+                <td><input type="text" name="class"></td>
+                <td align="left">学号：</td>
+                <td><input type="text" name="studentNumber"></td>
+                <td align="left">姓名：</td>
+                <td><input type="text" name="studentName"></td>
+            </tr>
+            </table>
+            <h2>一.填空题（每空5分，共20分）</h2>
+            <h4>1.UML的中文全称是：  <input type="text" name="studentNumber"></h4>
+            <h4>2.对象最突出的特征是:  <input type="text" name="studentNumber">  <input type="text" name="studentNumber">  <input type="text" name="studentNumber"></h4>
+            <h2>二.选择题（每空10分，共20分）</h2>
+            <h4>1.UML与软件工程的关系是：</h4>
+                <form>
+                <input type="radio" name="question" value="solution1">(A)UML就是软件工程
+                <br>
+                <input type="radio" name="question" value="solution2">(B)UML参与到软件开发过程的几个阶段
+                <br>
+                <input type="radio" name="question" value="solution3">(C)UML与软件工程无关
+                <br>
+                <input type="radio" name="question" value="solution4">(D)UML是软件工程的一部分           
+                </form> 
+            <h4>2.java语言支持：</h4>
+                <form>
+                <input type="radio" name="question" value="solution1">(A)单继承
+                <br>
+                <input type="radio" name="question" value="solution2">(B)多继承
+                <br>
+                <input type="radio" name="question" value="solution3">(C)单继承和多继承都支持
+                <br>
+                <input type="radio" name="question" value="solution4">(D)单继承和多继承都不支持            
+                </form> 
+            <h2>三.多选题（每题10分，共20分）</h2>
+            <h4>1.用例的粒度分为以下哪三种：</h4>
+            <form>
+            <input type="checkbox" name="question" value="solution1">(A)概述级
+            <br>
+            <input type="checkbox" name="question" value="solution2">(B)需求级
+            <br>
+            <input type="checkbox" name="question" value="solution3">(C)用户目标价级
+            <br>
+            <input type="checkbox" name="question" value="solution4">(D)子功能级           
+            </form> 
+            <h4>2.类图由以下那三部分组成：</h4>
+            <form>
+            <input type="checkbox" name="question" value="solution1">(A)名称（name）
+            <br>
+            <input type="checkbox" name="question" value="solution2">(B)属性（attribute）
+            <br>
+            <input type="checkbox" name="question" value="solution3">(C)操作（operation）
+            <br>
+            <input type="checkbox" name="question" value="solution4">(D)方法（function）       
+            </form> 
+            <h2>四.判断题（每题10分，共20分）</h2>
+            <h4>1.用例图只是用于和客户交流和沟通的，用于确定需求。<input type="radio" name="juadge1" value="ture">√<input type="radio" name="juadge1" value="false">×</h4>
+            <h4>2.在状态图中终止状态在一个状态图中允许有任意多个。<input type="radio" name="juadge2" value="ture">√<input type="radio" name="juadge2" value="false">×</h4>
+            <h2>五.简答题（每题20分，共20分）</h2>
+            <h4>1.简述什么是模型以及模型的表现形式？</h4>
+            <input name="question" type="text" style="width:800px; height:200px;" />
+            <br>
+            <button>计算分数</button>
+    </body>
+</html>
