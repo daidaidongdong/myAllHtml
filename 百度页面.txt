@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            王杰的百度搜索
+        </title>
+        
+        <style type="text/css">
+            .head {
+                height: 50px;
+                position: relative;
+            }
+            a.type1{
+                font-size: 18px;
+                line-height: 1;
+                color: black;
+                padding: 10px 8px;          
+            }
+            a.type1:hover{
+                background:pink;;
+            }
+            .headin{
+                padding: 11px 8px;     
+                line-height: 1;
+                background-color: blue;
+                position: absolute;
+                right: 80px;
+            }
+            .headin:hover{
+                background:pink;;
+            }
+            .middle{
+              height: 350px;
+            }
+            img.xianshi{
+               padding: 10px 8px; 
+               position: absolute;
+               right: 400px;
+            }
+            input.xianshi2{
+               font-size: 20px;
+               position: absolute;
+               right:400px;
+               top: 280px;
+            }
+            .sou{
+                padding: 7px 10px; 
+                line-height: 1;
+                background-color: blue;
+                position: absolute;
+                right: 347px;
+                top: 280px;
+            }
+            .sou:hover{
+                background:pink;
+            }
+            .buttom{
+                height: 200px; 
+            }
+            img.xianshi3{
+               padding: 10px 8px; 
+               position: absolute;
+               right: 630px;
+              
+            }
+            h4{
+                position: absolute;
+                right: 655px;
+                top: 500px;       
+
+            }
+            a.type3{
+                font-size: 8px;
+                line-height: 1;
+                color: gray;
+                padding: 10px 8px;          
+            }
+            </style>
+            
+    </head>
+    <body>
+        <div class="head">
+            <a class="type1" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 500px">新闻</a>
+            <a class="type1" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 420px">hao123</a>
+            <a class="type1" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 370px">地图</a>
+            <a class="type1" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 320px">视频</a>
+            <a class="type1" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 270px">贴吧</a>
+            <a class="type1" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 225px">学术</a>
+            <a class="type1" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 180px">登录</a>
+            <a class="type1" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 130px">设置</a>
+           <div class="headin">
+            <a href="http://www.w3school.com.cn/" target="_blank" style="color:white">更多</a>
+           </div>            
+        </div>
+        <div class="middle">
+          <img class="xianshi" src="http://owgyo1d3r.bkt.clouddn.com/%E7%99%BE%E5%BA%A6.png" alt="百度" height="200" width="550">
+          <input class="xianshi2" type="text" style="width:600px" >              
+                    <div class="sou">
+                    <a  href="http://www.w3school.com.cn/" target="_blank" style="color:white">搜索</a>               
+                    </div>
+         </div> 
+        <div class="buttom">
+          <img class="xianshi3" src="http://owgyo1d3r.bkt.clouddn.com/%E7%99%BE%E5%BA%A6%E4%BA%8C%E7%BB%B4%E7%A0%81.png" alt="二维码" height="100" width="100" >
+          <h4>手机百度</h4>
+          <a class="type3" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 800px; top:550px">好烦好烦</a>    
+          <a class="type3" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 700px; top:550px">好烦好烦</a>
+          <a class="type3" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 600px; top:550px">好烦好烦</a>
+          <a class="type3" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 500px; top:550px">好烦好烦</a>
+          <a class="type3" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 780px; top:580px">中午一点搞到现在</a>
+          <a class="type3" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 620px; top:580px">还没吃饭还没吃饭</a>
+          <a class="type3" href="http://www.w3school.com.cn/" target="_blank" style="position: absolute; right: 480px; top:580px">要饿瘦了饿瘦了</a>
+         </div>
+        
+       
+        
+    </body>
+</html>
